@@ -58,4 +58,10 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         cell.name.text = "\(person?.name?.title ?? "") \(person?.name?.first ?? "") \(person?.name?.last ?? "")"
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let person = self.personData![indexPath.item]
+        let nextVC = DetailVC.instance(person: person)
+        self.navigationController?.pushViewController(nextVC, animated: true)
+    }
 }
