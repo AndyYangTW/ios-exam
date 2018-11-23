@@ -17,6 +17,7 @@
 		5351CCF521A83574003DDF6E /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5351CCF421A83574003DDF6E /* Person.swift */; };
 		5351CCF821A83A4B003DDF6E /* PersonListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5351CCF621A83A4B003DDF6E /* PersonListCell.swift */; };
 		5351CCF921A83A4B003DDF6E /* PersonListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5351CCF721A83A4B003DDF6E /* PersonListCell.xib */; };
+		5351CCFB21A83AE3003DDF6E /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5351CCFA21A83AE3003DDF6E /* DetailVC.swift */; };
 		57F9BF256407234A9C745BE0 /* Pods_ios_exam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C5F376047030332102C468 /* Pods_ios_exam.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,7 @@
 		5351CCF421A83574003DDF6E /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		5351CCF621A83A4B003DDF6E /* PersonListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListCell.swift; sourceTree = "<group>"; };
 		5351CCF721A83A4B003DDF6E /* PersonListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonListCell.xib; sourceTree = "<group>"; };
+		5351CCFA21A83AE3003DDF6E /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 		D0C5F376047030332102C468 /* Pods_ios_exam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_exam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D270A514E8D222BEFDC2782C /* Pods-ios-exam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-exam.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-exam/Pods-ios-exam.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				5351CCDD21A83169003DDF6E /* ViewController.swift */,
+				5351CCFA21A83AE3003DDF6E /* DetailVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 				5351CCDC21A83169003DDF6E /* AppDelegate.swift in Sources */,
 				5351CCF821A83A4B003DDF6E /* PersonListCell.swift in Sources */,
 				5351CCF321A83554003DDF6E /* TheManager.swift in Sources */,
+				5351CCFB21A83AE3003DDF6E /* DetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
