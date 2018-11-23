@@ -69,14 +69,38 @@
 		5351CCDA21A83169003DDF6E /* ios-exam */ = {
 			isa = PBXGroup;
 			children = (
+				5351CCEF21A83279003DDF6E /* Model */,
+				5351CCEE21A83273003DDF6E /* View */,
+				5351CCED21A83260003DDF6E /* Controller */,
 				5351CCDB21A83169003DDF6E /* AppDelegate.swift */,
-				5351CCDD21A83169003DDF6E /* ViewController.swift */,
 				5351CCDF21A83169003DDF6E /* Main.storyboard */,
 				5351CCE221A8316B003DDF6E /* Assets.xcassets */,
 				5351CCE421A8316B003DDF6E /* LaunchScreen.storyboard */,
 				5351CCE721A8316B003DDF6E /* Info.plist */,
 			);
 			path = "ios-exam";
+			sourceTree = "<group>";
+		};
+		5351CCED21A83260003DDF6E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5351CCDD21A83169003DDF6E /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5351CCEE21A83273003DDF6E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5351CCEF21A83279003DDF6E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		B74EF62A961FC9FAA4E1E2C7 /* Pods */ = {
