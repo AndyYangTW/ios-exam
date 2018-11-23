@@ -8,6 +8,32 @@
 
 import UIKit
 
-class Person: NSObject {
+struct PersonListResult: Decodable {
+    var results: [Person]?
+}
 
+struct Person: Decodable {
+    var name: Name?
+    var location: Location?
+    var email: String?
+    var phone: String?
+    var cell: String?
+    var dob: Dob?
+}
+
+struct Name: Decodable {
+    var title: String?
+    var first: String?
+    var last: String?
+}
+
+struct Location: Decodable {
+    var street: String?
+    var city: String?
+    var state: String?
+}
+
+struct Dob: Decodable {
+    var date: String?
+    var age: Int?
 }
